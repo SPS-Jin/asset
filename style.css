@@ -9,7 +9,7 @@ body {
 }
 .card {
   display: grid;
-  grid-template-columns: 300px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));;
   grid-template-rows: 210px 210px 80px;
   grid-template-areas: "image" "text" "stats";
 
